@@ -5,6 +5,9 @@ To see which environmental variables drive the growth of fox fish _Bodianus fren
 
 ## Sea Surface Temperature
 I have downloaded multiple .txt.gz files for [Hadley Sea Surface Temperature](http://www.metoffice.gov.uk/hadobs/hadisst/data/download.html) observations for the years **1931-2013**. The data have been unzipped (UnZip_Data.R), resulting in mutiple .txt files in [ASCII format.](http://www.metoffice.gov.uk/hadobs/hadisst/data/Read_instructions_sst.txt).   
+
+For this study, we will be comparing two populations of fox fish _Bodianus frenchii_, the "South Coast" (Esperance, Albany area Western Australia) and the "West Coast" (Rottnest Western Australia). This means that I will have to get the SST observations from more than one grid cell, and use all grid cells (or possible the mean of many) in my model.
+
 The R scripts used in getting the SST:
 * **UnZip_Data.R**: assumes you have downloaded the HadISST1_SST.txt.gz data files and have them in your working directory. This script simply uses R.utils to unzip them to .txt files
 * **SST_Data.R**: uses several functions to extract the monthly SST observations from each file for a grid cell the user inputs, results in a matrix "BigMat" of 12 rows (one for each month) and ncol = years
