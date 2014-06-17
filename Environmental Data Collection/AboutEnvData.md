@@ -1,4 +1,4 @@
-# Environmental Varibales
+# Environmental Variables
 To see which environmental variables drive the growth of fox fish _Bodianus frenchii_, I will be testing for correlations between  the increment chronologies and the environmental variable chronologies. The variables I will be using are:
 * **SST**: Sea Surface Temperature
 * **FSL**: Fremantle Sea Level - a proxy for Leeuwin Current
