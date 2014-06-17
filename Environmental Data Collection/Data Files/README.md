@@ -1,5 +1,7 @@
 # Data Files
 
+## Sea Surface Temperature Data (1931-2013)
+
 The following data files are the output from the R scripts in the previous file. 
 
 ### West Coast
@@ -27,3 +29,5 @@ West_Coast_SST: Mean of above
 
 
 South_Coast_SST: Mean of above
+
+## Fremantle Sea Level
