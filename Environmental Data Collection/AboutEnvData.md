@@ -7,4 +7,4 @@ To see which environmental variables drive the growth of fox fish _Bodianus fren
 I have downloaded multiple .txt.gz files for [Hadley Sea Surface Temperature](http://www.metoffice.gov.uk/hadobs/hadisst/data/download.html) observations. The data have been unzipped (UnZip_Data.R), resulting in mutiple .txt files in [ASCII format.](http://www.metoffice.gov.uk/hadobs/hadisst/data/Read_instructions_sst.txt).
 
 ## Fremantle Sea Level
-The Fremantle Sea Level Data can be saved from the [Bureau of Meteorology website](http://www.bom.gov.au/ntc/IDO70000/IDO70000_62230_SLD.txt).
+The Fremantle Sea Level Data can be saved from the [Bureau of Meteorology website](http://www.bom.gov.au/oceanography/tides/monthly/), and the [text file](http://www.bom.gov.au/ntc/IDO70000/IDO70000_62230_SLD.txt).
