@@ -1,0 +1,21 @@
+#setwd("C:/Users/User/Google Drive/Honours/Results/SST")
+list.files()
+
+library(R.utils)
+gunzip("HadISST1_SST_1931-1960.txt.gz", sep=",")
+gunzip("HadISST1_SST_1961-1990.txt.gz", sep=",")
+gunzip("HadISST1_SST_1991-2003.txt.gz", sep=",")
+gunzip("HadISST1_SST_2004.txt.gz", sep=",")
+gunzip("HadISST1_SST_2005.txt.gz", sep=",")
+gunzip("HadISST1_SST_2006.txt.gz", sep=",")
+gunzip("HadISST1_SST_2007.txt.gz", sep=",")
+gunzip("HadISST1_SST_2008.txt.gz", sep=",")
+gunzip("HadISST1_SST_2009.txt.gz", sep=",")
+gunzip("HadISST1_SST_2010.txt.gz", sep=",")
+gunzip("HadISST1_SST_2011.txt.gz", sep=",")
+gunzip("HadISST1_SST_2012.txt.gz", sep=",")
+gunzip("HadISST1_SST_2013.txt.gz", sep=",")
+gunzip("HadISST_sst.nc.gz", sep=",")
+
+
+list.files()
