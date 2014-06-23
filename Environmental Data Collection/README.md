@@ -16,4 +16,4 @@ The R scripts used in getting the SST:
 
 
 ## Fremantle Sea Level
-Australian Sea Level Data can be downloaded from the [Bureau of Meteorology website](http://www.bom.gov.au/oceanography/tides/monthly/) (the FSL data I used can be found [here](http://www.bom.gov.au/ntc/IDO70000/IDO70000_62230_SLD.txt).)
+Australian Sea Level Data can be downloaded from the [Bureau of Meteorology website](http://www.bom.gov.au/oceanography/tides/monthly/) (the FSL data I used can be found [here](http://www.bom.gov.au/ntc/IDO70000/IDO70000_62230_SLD.txt).) A .csv of the data I used can be found in Data Files. The **FSL_Initial_Plot.R** plot contains code to read in the FSL.csv, add a date variable and plot using ggplot2.
