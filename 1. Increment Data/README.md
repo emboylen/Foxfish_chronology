@@ -14,10 +14,10 @@ Data files are in the format:
 |1940 | 14      | 16      |...  | 11       |
 
 Data files:
-* **SouthFOXEB.csv**
-* **SouthFOXPC.csv**
-* **WestFOXEB.csv**
-* **WestFOXPC.csv**
+* **SouthFOXEB.csv**: Foxfish from the South Coast, measured by EB
+* **SouthFOXPC.csv**: Foxfish from the South Coast, measured by PC
+* **WestFOXEB.csv**: Foxfish from the West Coast, measured by EB
+* **WestFOXPC.csv**: Foxfish from the West Cpast, measrued by PC
 
 R scripts:
 * **Initialize_Incs_Fox.R**: Set the directory, read in the data, find the mean of the two .csv data files
