@@ -19,4 +19,4 @@ Output:
 * A segment series plot, showing the significance of each chronology segment (blue = significantly correlated, red = insignificantly correlated, green = not enough data)
 * A table (in .csv format) with the age ranges, mean number of increments, mean sensitivity, standard deviation and n.
 
-For detailed instructions on the output of dplR - see the [vignette](http://cran.r-project.org/web/packages/dplR/vignettes/xdate-dplR.pdf)
+For detailed instructions on the output of dplR - see the [vignette](http://cran.r-project.org/web/packages/dplR/vignettes/xdate-dplR.pdf "dplR Vignette pdf")
