@@ -13,3 +13,10 @@ R scripts:
 * **X_dating_Incs.R**: a generic script which can be applied to any ring width data (in .csv format initially). I have used my combined data in this case
 * **X_dating_Incs_PC.R**: as above, using PC's measurements
 * **X_dating_Incs_EB.R**: as above, using EB's measurements
+
+Output:
+* A "spaghetti" plot of the raw increments (similar to my plots made with ggplot2, in   [part 1, Increment Data](https://github.com/emboylen/EBHonoursThesis/tree/master/1.%20Increment%20Data)
+* A segment series plot, showing the significance of each chronology segment (blue = significantly correlated, red = insignificantly correlated, green = not enough data)
+* A table (in .csv format) with the age ranges, mean number of increments, mean sensitivity, standard deviation and n.
+
+For detailed instructions on the output of dplR - see the [vignette](http://cran.r-project.org/web/packages/dplR/vignettes/xdate-dplR.pdf)
