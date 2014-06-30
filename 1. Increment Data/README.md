@@ -6,6 +6,12 @@ These measurements have then been exported as .csv files. Two researchers (EB an
 
 Data files are in the format:
 
+|Year | Fish X1 | Fish X2 | ... | Fish X30 |
+|-----|---------|---------|-----|----------|
+|2013 | 12      |31       |...  | 12       |
+|2012 | 13      | 11      |...  | 11       |
+|...  | ...     |...      |...  |...       |
+|1940 | 14      | 16      |...  | 11       |
 
 Data files:
 * **SouthFOXEB.csv**
