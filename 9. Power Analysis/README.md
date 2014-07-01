@@ -17,8 +17,8 @@ Please consider running a seperate machine or plan ahead.
 
 ##### Variables to set
 In **Run_Power_analysis**:
-* ```ItVec```: a number indiacting the number of iterations and the sample size. Both are of equal length coincidentally, they can be different lengths.
-* ```SampVec```: a number indicating the maximum number of samples to reach, xmax on the graphical output
+* ```ItVec```: a number indiacting the number of iterations and the sample size. Both are of equal length coincidentally, they can be different lengths [line 3]
+* ```SampVec```: a number indicating the maximum number of samples to reach, xmax on the graphical output. Used in ```SampSizeVec``` [line 4]
 
 In **Power_Analysis..._.R** files:
 * ```CutAge```: cut-off age for juvenile fish to be excluded from analysis [line 34]
