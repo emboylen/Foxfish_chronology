@@ -18,26 +18,22 @@ WFoxPC <- read.csv("WestFoxPC.csv")
 
 # Creating master chronologies using dplR
 # remove measurements with < 5 observations
-MinN <- 5
+MinN <- 6
 SFoxPC1 <- SFoxPC[,-1]
-NS <- ncol(SFoxPC1)
-a <- NS-MinN
 WFoxPC1 <- WFoxPC[,-1]
-NW <- ncol(WFoxPC1)
-b <- NW-MinN
 
 
 library(dplR)
 dat1 <- chron(x=SFoxPC1, prefix = "xxx", biweight = TRUE, prewhiten = FALSE)
 dat1 <- data.frame(SFoxPC[,1], dat1)
-dat2 <- dat1[dat1$samp.depth >= a,]
+dat2 <- dat1[dat1$samp.depth >= MinN,]
 dat3 <- chron(x=WFoxPC1, prefix = "xxx", biweight = TRUE, prewhiten = FALSE)
 dat3 <- data.frame(WFoxPC[,1], dat3)
-dat4 <- dat1[dat1$samp.depth >= b,]
+dat4 <- dat1[dat1$samp.depth >= MinN,]
 
 # write data to csv
 write.csv(dat2, file = "Master_SouthFOX.csv", row.names=F)
-write.csv(dat4, file = "Master_WestFOX.csv", row.namses=F)
+write.csv(dat4, file = "Master_WestFOX.csv", row.names=F)
 
 
 # Alternatively: creating master chronologies - manually
