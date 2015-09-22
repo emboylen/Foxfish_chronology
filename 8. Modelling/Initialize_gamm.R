@@ -10,8 +10,8 @@
 rm(list=ls()) # clears whole workspace
 list.files()
 # Read in mean chronologies
-SFoxPC <- read.csv("Master_WestFOX.csv")
-WFoxPC <- read.csv("Master_SouthFOX.csv")
+SFoxPC <- read.csv("MIC_Dbl_West.csv")
+WFoxPC <- read.csv("MIC_Dbl_South.csv")
 colnames(SFoxPC) <- c("Year", "MIC", "Depth")
 colnames(WFoxPC) <- c("Year", "MIC", "Depth")
 # library(reshape2)

@@ -56,11 +56,11 @@ moltenSSTw$Date <- as.Date(moltenSSTw$Date, format = "%d%b%Y")
 
 # Everything's coming up Ellen! Let's plot the single variables
 
-ggplot(moltenFSL, aes(x=Date, y=value)) + geom_point() + theme_classic()
+ggplot(moltenFSL, aes(x=Date, y=value)) + geom_line() + theme_classic() + labs(title = "Fremantle Sea Level", x = "Date", y="FSL") + stat_smooth(method="glm", se=T)
 
-ggplot(moltenSSTs, aes(x=Date, y=value)) + geom_point() + theme_classic()
+ggplot(moltenSSTs, aes(x=Date, y=value)) + geom_point() + theme_classic() labs(title = "West Coast", x = "FSL", y="SST")
 
-ggplot(moltenSSTw, aes(x=Date, y=value)) + geom_point() + theme_classic()
+ggplot(moltenSSTw, aes(x=Date, y=value)) + geom_point() + theme_classic() labs(title = "West Coast", x = "FSL", y="SST")
 
 
 # Need to merge the data frames so ggplot2 can deal with it, emotionally
@@ -99,8 +99,8 @@ Sa
 dev.off()
 
 # Now to do some correlation analyses
-# H[0] = There is a relationship between sea surface temperature and Fremantle sea level
-# H[1] = There is no relationship between sea surface temperature and Fremantle sea level
+# H[0] = There is no relationship between sea surface temperature and Fremantle sea level
+# H[1] = There is a relationship between sea surface temperature and Fremantle sea level
 
 # Correlations with significance levels
 library(Hmisc)
